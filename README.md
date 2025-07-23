@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+🧠 Smart Posture Correction and Detection Belt
+An IoT-based wearable health-tech solution designed to detect and correct poor spinal posture in real-time. The system uses the MPU6050 (Gyroscope + Accelerometer) sensor to monitor back alignment and alerts the user through a buzzer or vibration motor whenever slouching or incorrect posture is detected.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project also includes a web application that visualizes posture data, logs user history, and helps improve daily sitting habits. Built as part of Innovera and DIPEX hackathons, the system is lightweight, cost-effective, and easy to wear.
 
-## Get started
+🚀 Features
+🧍‍♂️ Real-time posture monitoring using MPU6050
 
-1. Install dependencies
+🔔 Alerts through buzzer or vibration motor for poor posture
 
-   ```bash
-   npm install
-   ```
+📊 Web-based dashboard for visual feedback and posture history
 
-2. Start the app
+🔌 ESP-32-based embedded design
 
-   ```bash
-    npx expo start
-   ```
+🔗 Bluetooth connectivity for real-time communication
 
-In the output, you'll find options to open the app in a
+🛠️ Tech Stack
+Hardware:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ESP-32
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+MPU6050 Gyroscope + Accelerometer
 
-## Get a fresh project
+Vibration Motor / Buzzer
 
-When you're ready, run:
+Bluetooth Module (e.g., HC-05)
 
-```bash
-npm run reset-project
-```
+Software:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Arduino IDE (Embedded C++)
 
-## Learn more
+Web App: HTML, CSS, JavaScript
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
